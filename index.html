@@ -8,8 +8,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">            
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="./assets/style.css">
     <title>Hello, world!</title>
 </head>
@@ -31,32 +34,8 @@
             <ul class="searched-cities btn-group-vertical" id="searched-cities"></ul>
             </div>
             <div class="col-8 border border-dark ">
-                <div class="card  mb-3">
-                    <div class="date" id="date"></div>
-                    <div class="card-body">
-                        <div class="left">
-                            <img class="icon" alt="Weather Icon" id="cityIcon" />
-                            <h5 class="city" id="city">City Name</h5>
+                        <div id="current-weather" class="text-center">
                         </div>
-                        <div class="labels">
-                            <p>Temperature:</p>
-                            <p>Wind Speed:</p>
-                            <p>Humidty:</p>
-                            <p>UV Index:</p>
-                        </div>
-                        <div class="cityInfo" id="cityList">
-                            <p id="cityTemp">Temperature</p>
-                            <p id="cityWind">Wind Speed</p>
-                            <p id="cityHumid">Humidty</p>
-                            <p id="cityUv">UV Index</p>
-                        </div>
-                        <div class="labelDay">
-                            <p>°F</p>
-                            <p>mph</p>
-                            <p>%</p>
-                        </div>
-                    </div>
-                </div>
                 <div class="row forecast" style="height: 30vh;"> 5 day forecast</div>
             
             </div>
